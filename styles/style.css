@@ -24,7 +24,7 @@
     border: none;
     border-radius: 10px;
     display: block;
-    margin: 50px;
+    /* margin: 50px; */
   }
 
 /* Common Styles end */
@@ -88,8 +88,8 @@ background-color: #ff8f0e1f;
   width: 80%;
   border-radius: 10px;
   padding-bottom: 50px;
+  margin-top: 50px;
  }
-  
   /* banner-section end */
 
 /* Header Section end */
@@ -97,6 +97,53 @@ background-color: #ff8f0e1f;
 
 
 /* Main Section Start */
+
+/*<!-- Feature section start  -->*/
+
+.feature-section{
+  margin: auto;
+  margin: 100px 300px;
+  /* width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.img-college-div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+
+.college-img{
+  margin-bottom: 10px;
+}
+
+.feature-div{
+  text-align: left;
+  margin: auto;
+}
+
+.feature-title{
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+
+.feature-title-span1{
+  color: #727272;
+  font-weight: 500;
+}
+.feature-title-span2{
+  color: #FF900E;
+}
+
+.feature-description{
+  color: #727272;
+  font-size: 16px;
+}
+/*<!-- Feature section end  -->*/
 
 /* Main Section end */
 
@@ -109,6 +156,10 @@ background-color: #ff8f0e1f;
 
 /* Small Device */
 @media screen and (max-width: 576px) {
+  body{
+    margin: auto;
+    width: 98%;
+  }
   /* Header Section Start */
 
   /* banner-section Start */
@@ -138,9 +189,28 @@ background-color: #ff8f0e1f;
   .banner-img{
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
  }
   /* banner-section end */
 
 /* Header Section end */
+
+
+
+/* Main Section Start */
+
+/*<!-- Feature section start  -->*/
+
+.feature-section{
+  margin: auto;
+  margin: 50px 0px;
+  /* width: 80%; */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 5px;
+}
+.college-img{
+  margin-bottom: 10px;
+  width: 90%;
+}
 }
